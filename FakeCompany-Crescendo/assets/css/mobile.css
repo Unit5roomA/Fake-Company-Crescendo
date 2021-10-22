@@ -1,0 +1,62 @@
+@media only screen and (max-width: 1199px) {
+    .line  {
+        display: none;
+      }
+   
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 991px) { 
+     .line, .logoNav {
+         
+    display: none;
+  }
+  .bottomNav {
+    display: inline;
+    height: 66px;
+    width: 100%;
+    background: #EAECEE;
+    position: absolute;
+    top: 0;
+  }
+
+  nav > .container > img:nth-of-type(1) {
+    height: 110px;
+    margin-right: 20px;
+    display: none;
+  }
+
+  nav > .container {
+    justify-content: center !important;
+  }
+
+  nav > .container > img:nth-of-type(2) {
+    height: 50px;
+    display: inline;
+  }
+  
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) { 
+  .line, .logoNav {
+    display: none;
+  }
+  nav > .container > img:nth-of-type(1) {
+    height: 110px;
+    margin-right: 20px;
+    display: none;
+  }
+}

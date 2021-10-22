@@ -1,0 +1,361 @@
+@font-face {
+  font-family: "Interstate";
+  src: url(../css/fonts/Interstate-bold.ttf);
+}
+@font-face {
+  font-family: "Interstate-light";
+  src: url(../css/fonts/Interstate-light.ttf);
+}
+@font-face {
+  font-family: "Interstate-bold";
+  src: url(../css/fonts/Interstate-bold.ttf);
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url(../fonts/Helvetica.ttf);
+}
+@font-face {
+  font-family: "Helvetica-bold";
+  src: url(../fonts/Helvetica-Bold.ttf);
+}
+@font-face {
+  font-family: "Nimbus";
+  src: url(../fonts/Nimbus-Sans-D-OT-Ultra-Light_32757.ttf);
+}
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.navChar{
+font-family: helvetica;
+color: black;
+font-weight: bolder !important;
+}
+
+.logoNav{
+  margin-left: 50px;
+}
+.logoNav h1 {
+    line-height: .9 !important;
+    color: #193989 !important;
+}
+
+.logoNav h6 {
+  color: #009bfa !important;
+}
+
+.miniLogo{
+  height:8%;
+  width: 8%;
+}
+
+.line {
+    border-left: 1px solid #CCCCCC;
+    height: 50px;
+    margin: 0px 20px -30px;
+  }
+
+  ul.navbar-nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+ 
+  .navBottom {
+    height: 20px;
+    width: 100%;
+    background: #001254;
+  }
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+  #banner {
+    height: 56vh;
+    background-image: url(../img/banner.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .headText {
+    color: white;
+    font-family: Helvetica-bold;
+    font-size: 45px;
+    line-height: 47px;
+    padding-top:150px
+    
+  }
+  .bodyText {
+    margin-top: 20px;
+    color: d5e1ed;
+    font-family: Nimbus;
+    font-size: 31px;
+    letter-spacing: .2px;
+    line-height: 38px;
+  }
+
+
+  /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+  #cardSection, #eventsSection {
+    padding: 40px 0px;
+  }
+
+  .cardBox {
+    padding: 5px;
+    transition: all .2s ease-in-out;
+  }
+
+  .cardBox:hover{
+    transform: scale(1.1);
+}
+
+  .cardTitle {
+    color: black;
+    font-family: Helvetica;
+    padding-top: 30px;
+  }
+  .cardTitle p:nth-of-type(1) {
+    font-size: 32px;
+    line-height: .5;
+    margin-top: 5px;
+  }
+  .cardTitle p:nth-of-type(2) {
+    font-size: 15px;
+  }
+
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: row;
+    flex-wrap: nowrap !important;
+}
+  .insideCard {
+    background: white;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 2px #bdbdbd;
+    font-size: 32px;
+    font-family: Helvetica-bold;
+    line-height: 1;
+    border-bottom: 12px solid;
+  }
+  .insideCard01 {
+    color: #1450D2;
+    border-color: #1450D2;
+  }
+  .insideCard02 {
+    color: #01A49C;
+    border-color: #01A49C;
+  }
+  .insideCard03 {
+    color: #009BFA;
+    border-color: #009BFA;
+  }
+  .insideCard img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+
+  #about {
+    height: 443px;
+    background-image: url(../img/blue-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .aboutTitle {
+    font-size: 40px;
+  }
+
+  .aboutText {
+    font-size: 24px;
+    font-family: Helvetica;
+  
+  }
+
+  .myBtn {
+    margin-top:20px;
+    color: white !important;
+    background: transparent !important;
+    border: 1px solid white !important;
+    border-radius: 3px !important;
+    font-family: Helvetica-bold !important;
+    padding: 10px 40px !important;
+  }
+
+
+  .eventCard {
+    height: 100%;
+    font-size: 32px;
+    font-family: Helvetica-bold;
+    line-height: 1;
+    
+   
+
+  }
+
+  .eventCard01 {
+    color: #1450D2;
+    position: relative;
+  }
+  .eventCard02 {
+    color: #01A49C;
+    position: relative;
+  }
+  .eventCard03 {
+    color: #009BFA;
+    position: relative;
+  }
+  .eventCard img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+
+  
+
+  .eventDate {
+    position: absolute;
+    top: 14px;
+    left: 48px;
+    text-align: center;
+    line-height: 10px;
+    color: white !important;
+    width: 50px;
+  }
+
+  .eventDate p:nth-of-type(1) {
+    font-family: Interstate-light;
+    font-size: 14px;
+  }
+  .eventDate p:nth-of-type(2) {
+    font-family: Interstate-bold;
+    font-size: 32px;
+  }
+
+  .eventText {
+    position: absolute;
+    top: 25%;
+    text-align: left;
+    line-height: 10px;
+    color: white;
+    padding: 20px;
+  }
+  .eventText p:nth-of-type(1) {
+    font-family: Helvetica-bold;
+    font-size: 20px;
+    line-height: 1px;
+  }
+  .eventText p:nth-of-type(2) {
+    font-family: Interstate-light;
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .eventCard > button {
+    position: absolute;
+    bottom: 30%;
+    left: 35px;
+    border: 1px solid white !important;
+    border-radius: 0px !important;
+    font-family: Helvetica-bold !important;
+    padding: 10px 40px !important;
+  }
+
+  .eventLocation {
+    color: black;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 20px;
+    font-family: Interstate-bold;
+  }
+
+
+
+  /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+  #myFooter {
+    background: #707070;
+    color: white;
+    padding: 20px 0px 50px;
+  }
+
+  #myFooter > .container {
+    justify-content: space-between;
+    display: flex;
+
+  }
+  .myIcons span:nth-of-type(1) {
+    height: 10px;
+    background: #C6C6C6;
+    padding: 5px 8px;
+    border-radius: 100%;
+    color: #707070;
+  }
+  .myIcons span:nth-of-type(2) {
+    height: 10px;
+    background: #C6C6C6;
+    padding: 5px 10.5px;
+    border-radius: 100%;
+    color: #707070;
+  }
+  .myIcons span:nth-of-type(3) {
+    height: 10px;
+    background: #C6C6C6;
+    padding: 5px 8.6px;
+    border-radius: 100%;
+    color: #707070;
+  }
+  .myIcons span:nth-of-type(4) {
+    height: 10px;
+    width: 20px;
+    background: #C6C6C6;
+    padding: 5px 8px;
+    border-radius: 100%;
+    color: #707070;
+  }
+
+
+  @-webkit-keyframes fade {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @-moz-keyframes fade {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @-o-keyframes fade {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @keyframes fade {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+
+  }
+  
+  .page, .myBtn, .myIcons {
+   animation-name: fade;
+   animation-duration: 3s; 
+   animation-fill-mode: forwards; 
+  }
+  
+  nav > .container > img:nth-of-type(2) {
+    height: 50px;
+    display: none;
+    z-index: 1;
+  }
+
+
+
